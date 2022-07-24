@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.3rem;
+}
+img {
+  border-radius: 15px;
+  display: block;
+}
+body {
+  background-color: #000;
+  font-family: "Nunito", sans-serif;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.search__input {
+  width: 85%;
+}
+header {
+  background-color: rgb(163, 152, 87);
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+p {
+  color: white;
+  margin-bottom: 3rem;
+}
+h2 {
+  color: whitesmoke;
+}
+input {
+  font-size: 1.3rem;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+.search__button {
+  font-size: 1.1rem;
+  width: 15%;
+  display: grid;
+  place-content: center;
+  padding-right: 0.1em;
+}
+.search__button,
+.search__input {
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+.search {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid rgb(163, 152, 87);
+  width: 95%;
+  overflow: hidden;
+}
+.search:focus-within {
+  box-shadow: 2px 2px 5px #000;
+}
